@@ -17,30 +17,39 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
 }
 
 .header {
+  background-color: #4CAF50;
+  color: #fff;
   text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #eee;
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-.profile-image {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 15px;
+.header h1 {
+  font-size: 1.8em;
 }
 
 .position {
   font-size: 1.2em;
-  color: #666;
+  margin: 5px 0;
 }
 
 .contact {
   font-size: 0.9em;
-  color: #666;
+  margin: 10px 0;
+}
+
+.github-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  padding: 20px;
 }
 
 .content section {
@@ -48,29 +57,22 @@ body {
 }
 
 .content h2 {
-  color: #4b6cb7;
   font-size: 1.2em;
+  color: #333;
   margin-bottom: 10px;
-  border-bottom: 2px solid #4b6cb7;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 5px;
 }
 
-.skills ul, .interests ul {
+.skills p, .education p {
+  margin: 5px 0;
+}
+
+.interests ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.skills ul li, .interests ul li {
+.interests ul li {
   margin: 5px 0;
-}
-
-.tool-icons {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.tool-icons img {
-  width: 40px;
-  height: 40px;
 }
